@@ -48,17 +48,6 @@ for (let i = 0; i < response.data.length; i++) {
     gifDiv.append(gifStill);
 
 
-    // Storing the animated state of the gif
-    // var animatedGif = response.data.user.images.fixed_height;
-
-
-    // Creating an element to hold the animated gif
-    // var gifAnimated = $("<img>").attr("src", animatedGif);
-
-
-    // Appending the animated gif
-    // gifDiv.append(gifAnimated);
-
     $("#gif-view").prepend(gifDiv);
 }
 });
@@ -102,6 +91,7 @@ $("#add-gif").on("click", function (event) {
   var topic = $("#gif-input").val().trim();
 
   // Adding gif or topic from the textbox to our array
+
   topics.push(topic);
 
   // Calling renderButtons which handles the processing of our topics/gifs array
@@ -129,21 +119,3 @@ $(document).on("click", ".topic-btn", displayGif);
 // Calling the renderButtons function to display the intial buttons
 renderButtons();
 
-//  $(".gif").on("click", function() {
-//    // The attr jQuery method allows us to get or set the value of any attribute on our HTML element
-//    var state = $(this).attr("data-state");
-//    // If the clicked image's state is still, update its src attribute to what its data-animate value is.
-//    // Then, set the image's data-state to animate
-//    // Else set src to the data-still value
-//    if (state === "still") {
-//      $(this).attr("src", $(this).attr("data-animate"));
-//     $(this).attr("data-state", "animate");
-//    } else {
-//     $(this).attr("src", $(this).attr("data-still"));
-//      $(this).attr("data-state", "still");
-//   }
-//  });
-
-
-// // Prepending the gifDiv to the "#gifs-appear-here" div in the HTML
-// //$("#gifs-appear-here").prepend(gifDiv);
