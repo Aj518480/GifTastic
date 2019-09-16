@@ -1,0 +1,11 @@
+body{
+    background-image: url("../images/friends-hd-wallpapers-1080p.jpg");
+    background-repeat: no-repeat,
+}
+button{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#gif-form{
+margin-left: 80%;
+}
