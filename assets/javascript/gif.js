@@ -7,7 +7,7 @@ function displayGif() {
   
   // Here I construct my URL and with my unique api key for giphy, with the limit of 10
   var topic = $(this).attr("data-name");
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic +
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic +
   "&api_key=3bIERZ9pckEJHoWsjSHJ9ivyxQvdgOrh&limit=10";
 
   //making a url and get method to make a request to get the api information from server
