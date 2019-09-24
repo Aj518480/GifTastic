@@ -1,6 +1,7 @@
 body{
     background-image: url("../images/friends-hd-wallpapers-1080p.jpg");
-    background-repeat: no-repeat,
+    background-repeat: no-repeat;
+    background-color:gray;
 }
 button{
     margin-right: 5px;
@@ -23,3 +24,4 @@ margin-left: 80%;
 .gifRatingDiv {
     float: left;
 }
+
