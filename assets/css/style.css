@@ -1,7 +1,7 @@
 body{
     background-image: url("../images/friends-hd-wallpapers-1080p.jpg");
-    background-repeat: no-repeat;
     background-color:gray;
+    height: 100%;
 }
 button{
     margin-right: 5px;
